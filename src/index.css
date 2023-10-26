@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .myContainer {
+    @apply max-w-[1000px] mx-auto my-8;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebf0fa;
+}
+main {
+  flex-grow: 1;
+}
